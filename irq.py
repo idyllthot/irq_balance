@@ -58,12 +58,12 @@ new_cpu_tot=int(int(new_cpu0_tot)+int(new_cpu1_tot))
 new_cpu0_perc=100 * float(new_cpu0_tot)/float(new_cpu_tot)
 new_cpu1_perc=100 * float(new_cpu1_tot)/float(new_cpu_tot)
 
-print("\nORIG CPU0 total  = %d (%d)") %(cpu0_tot,cpu0_perc)
-print("ORIG CPU1 total  = %d (%d)") %(cpu1_tot,cpu1_perc)
+print("\nORIG CPU0 total  = %d (%d %%)") %(cpu0_tot,cpu0_perc)
+print("ORIG CPU1 total  = %d (%d %%)") %(cpu1_tot,cpu1_perc)
 print("ORIG Grand total = %d") %cpu_tot
 
-print("\nNEW CPU0 total   = %d (%d)") %(new_cpu0_tot,new_cpu0_perc)
-print("NEW CPU1 total   = %d (%d)") %(new_cpu1_tot,new_cpu1_perc)
+print("\nNEW CPU0 total   = %d (%d %%)") %(new_cpu0_tot,new_cpu0_perc)
+print("NEW CPU1 total   = %d (%d %%)") %(new_cpu1_tot,new_cpu1_perc)
 print("NEW Grand total  = %d") %new_cpu_tot
 
 
