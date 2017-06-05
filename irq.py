@@ -4,7 +4,6 @@
 """ Standalone IRQ Balancing Script. """
 
 __author__ = "Adam R. Dalhed"
-__copyright__ = "Copyright 2017, Verizon Digital Media Services"
 __version__ = "0.0.1"
 
 def set_affinity( my_irq, cpu_num ):
